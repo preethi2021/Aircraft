@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="../html/about.css">
+
+    <!-- JQuery Links -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <!-- Fontawesome Links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <!-- <a href="#" class="logo"><img src="../Assest/logo.png" alt=""></a> -->
+        <h1>Boeing 777-x</h1>
+        <ul>
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="../html/about.html">About</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="intro">
+        <div class="left-container">
+            <h1>The Boeing</h1>
+            <p>Boeing is the world's largest aerospace company and leading manufacturer of commercial jetliners, defense, space and security systems, and service provider of aftermarket support. As America’s biggest manufacturing exporter, the company supports airlines and U.S. and allied government customers in more than 150 countries. Boeing products and tailored services include commercial and military aircraft, satellites, weapons, electronic and defense systems, launch systems, advanced information and communication systems, and performance-based logistics and training.</p>
+        </div>
+        <div class="right-container">
+            <img src="../Assest/header-image.jpg" alt="">
+        </div>
+    </div><br><br><br><br>
+
+    <div class="info">
+        <h1>Boeing in brief</h1>
+        <p>Boeing is the world's largest aerospace company and leading manufacturer of commercial jetliners, defense, space and security systems, and service provider of aftermarket support. As America’s biggest manufacturing exporter, the company supports airlines and U.S. and allied government customers in more than 150 countries. Boeing products and tailored services include commercial and military aircraft, satellites, weapons, electronic and defense systems, launch systems, advanced information and communication systems, and performance-based logistics and training.</p>
+        <p>Boeing has a long tradition of aerospace leadership and innovation. The company continues to expand its product line and services to meet emerging customer needs. Its broad range of capabilities includes creating new, more efficient members of its commercial airplane family; designing, building and integrating military platforms and defense systems; creating advanced technology solutions; and arranging innovative financing and service options for customers.</p>
+        <p>With corporate offices in Chicago, Boeing employs more than 140,000 people across the United States and in more than 65 countries. This represents one of the most diverse, talented and innovative workforces anywhere. Our enterprise also leverages the talents of hundreds of thousands more skilled people working for Boeing suppliers worldwide.</p>
+        <p>Boeing is organized into three business units: Commercial Airplanes; Defense, Space & Security; and Boeing Global Services, which began operations July 1, 2017.  Supporting these units is Boeing Capital Corporation, a global provider of financing solutions.</p>
+        <p>In addition, functional organizations working across the company focus on engineering and program management; technology and development-program execution; advanced design and manufacturing systems; safety, finance, quality and productivity improvement and information technology.</p>
+    </div><br><br><br>
+
+    <div class="principle-content">
+        <h1 class="heading">Our Principles</h1>
+        <div class="principles">
+            <div class="point1">
+                <img src="../Assest/principle3.jpg" alt="">
+                <h1>Sustainability</h1>
+                <p>We are focused on innovating and operating to make the world better for future generations through environmental stewardship, social progress, and values-driven governance.</p>
+            </div>
+
+            <div class="point1">
+                <img src="../Assest/principle2s.jpg" alt="">
+                <h1>Ethics & Compliance</h1>
+                <p>At Boeing, our stance on ethical business conduct is simple: do the right thing, every time, no exceptions. Ensuring that Boeing’s values remain foundational to our work requires a daily commitment from every employee. Our robust ethics and compliance program is focused on integrity, respect, accountability and inclusion—the same values that lead to strong business outcomes.</p>
+            </div>
+
+            <div class="point1">
+                <img src="../Assest/principle3.jpg" alt="">
+                <h1>Diversity & Inclusion</h1>
+                <p>Diversity and inclusion are part of Boeing's values at the highest level. Having diverse employees, business partners and community relationships is vital to creating advanced aerospace products and services for our diverse customers around the world.</p>
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <h1 class="custom">777x Customers</h1><br><br>
+    <div class="customers slider">
+        
+        <div class="slide">
+            <img src="../Assest/customer1.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer5.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer6.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer7.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="../Assest/customer8.jpg" alt="">
+        </div>
+    </div><br><br><br><br><br><br>
+
+    <script>
+        $(document).ready(function(){
+            $('.customers').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: true,
+                dots: false,
+                pauseOnHover: true,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    },
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
+
+    <footer>
+        <div class="logo"><h1>Boeing 777x</h1></div>
+        <div class="quick-links">
+            <a href="../index.html">Home</a>
+            <a href="../html/about.html">About</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../index.html#contact">Contact</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="copyrights"><p>&copy; 2021 Reserved rights by Boeing inc.</p></div>
+    </footer>
+
+</body>
+</html>
